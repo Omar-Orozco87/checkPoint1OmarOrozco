@@ -1,0 +1,40 @@
+$base-paint: #c6538c;
+$btn-calculadora: #03118f;
+$btn-ppt: #d9f00bd7;
+$btn-fizzbuzz: #0ae3eb7e;
+$btn-empresa: #f30909;
+$btn-color:white;
+
+.chkpButtons{
+    color:$btn-color;
+    font-weight: bold;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.btnCalculadora{
+    background-color: $btn-calculadora; 
+    @extend .chkpButtons;
+}
+
+.btnPPT{
+    background-color: $btn-ppt;
+    @extend .chkpButtons;
+}
+
+.btnFizz{
+    background-color: $btn-fizzbuzz;
+    @extend .chkpButtons;
+}
+
+.btnEmpresa{
+    background-color: $btn-empresa;
+    @extend .chkpButtons;
+}
+
+.btnPaint{
+    background-color: $base-paint;
+    @extend .chkpButtons;
+}
+

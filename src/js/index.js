@@ -105,7 +105,6 @@ document.querySelector("#tijeras").addEventListener(("click"), () => {
 
 document.querySelector("#nuevoJuego").addEventListener(("click"), () => {
     event.preventDefault()
-
     pptView.clearArea()
 })
 //Fin Piedra , papel o tijeras.
@@ -121,6 +120,11 @@ document.querySelector("#fizzBuzzStart").addEventListener(("click"), () => {
     const resultado = FizzBuzz(fizzBuzzInput)
 
     fizzbuzzView.renderResultView(resultado)
+})
+
+document.querySelector("#limpiarFizz").addEventListener(("click"), () => {
+    event.preventDefault()
+    fizzbuzzView.clearArea()
 })
 //Fin Fizz Buzz
 

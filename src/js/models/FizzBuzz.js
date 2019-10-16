@@ -10,7 +10,7 @@ const FizzBuzz = (fizzBuzzInput) => {
         console.log(`Numero random es: ${element}`);
         
         if (element % 3 == 0  && element % 5 == 0) {
-            resultado += `${element} es FizzBuzz \n`
+            resultado += `${element} es FizzBuzz <br>`
         }
         else if (element % 3 == 0) {
             resultado += `${element} es Fizz <br>`
