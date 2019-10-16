@@ -1,0 +1,22 @@
+body{
+  background-color: darkslategrey;
+}
+
+#tableEmpleados{
+  width: 70%;
+  font-size: x-large;
+}
+
+#tableEmpleados th{
+  border: solid 3px darkgray;
+  color: white;
+}
+#tableEmpleados td{
+  border: solid 3px darkgray;
+  color: lightgreen;
+  text-align: center;
+  font-style: italic;
+}
+hr{
+  border: 1px solid lightslategrey;
+}
